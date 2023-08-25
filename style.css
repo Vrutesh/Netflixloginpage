@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Alkatra&family=Chakra+Petch:wght@700&family=DynaPuff:wght@500&family=EB+Garamond:wght@500&family=Fira+Sans:ital,wght@0,200;0,300;1,200&family=Hind+Siliguri&family=Jost:wght@200&family=Lumanosimo&family=Noto+Serif:wght@700&family=Nunito&family=Nunito+Sans:opsz,wght@6..12,600&family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@500&family=Poppins:wght@700&family=Roboto+Slab:wght@300&family=Shantell+Sans:ital,wght@1,300&family=Ubuntu:wght@700&family=Victor+Mono&display=swap');
+:root{
+    --mainfont:'Hind', sans-serif;
+    --footerfont:'Open Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--mainfont);
+}
+
+.main{
+    background-image: url(netflixbg.png);
+    background-size: cover;
+    overflow: hidden;
+    height: 1285px;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main img{
+    height: 55px;
+    width: 171px;
+    cursor: pointer;
+    padding: 18px 45px;
+}
+
+.contains{
+    display: flex;
+    justify-content: center;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1285px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.container1{
+    height: 775px;
+    width: 470px;
+    margin-top: 0;
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 600px;
+    gap: 18px;
+    
+}
+.login h1{
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+.login .name{
+    background-color: rgba(75, 75, 75, 0.6);
+    color: white;
+    padding: 18px 0;
+    padding-left: 20px;
+    padding-right: 55px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+}
+
+.signin{
+    padding: 20px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-decoration: none;
+    font-family: var(--mainfont);
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content1{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.inside-content{
+    display: flex;
+    color: white;
+}
+
+.inside-content:hover{
+    text-decoration: underline;
+}
+
+.signupnow{
+    text-decoration: none;
+    color: white;
+}
+
+.new{
+    display: flex;
+    color: #888;
+    padding-top: 70px;
+    gap: 5px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 300;
+}
+
+.msg{
+    color: #888;
+    display: flex;
+    font-family: 'Hind', sans-serif;
+
+}
+
+.msg a{
+    color: #3570e8;
+    text-decoration: none;
+}
+
+footer{
+   background-color: rgba(0, 0, 0, .7);
+   height: 325px;
+   font-family: var(--footerfont);
+}
+
+.footer-section{
+    color: #888;
+    display: flex;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.foot{
+    width: 80%;
+    margin: 0 20%;
+    padding-right: 80px;
+    padding: 80px 0;
+}
+
+.footer-content{
+    display: flex;
+    color: #888;
+    height: 100%;
+    gap: 10%;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: #888;
+    font-size: 12px;
+}
+
+.f1{
+    display: flex;
+    padding-right: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.f1 a:hover{
+   text-decoration: underline white;
+   
+}
+
+.f2{
+    display: flex;
+    padding-right: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.f2 a:hover{
+    text-decoration: underline white;
+    
+ }
+
+.f3{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    gap: 20px;
+}
+
+.f3 a:hover{
+    text-decoration: underline white;
+    
+ }
+
+.f4{
+    display: flex;
+    padding-right: 20px;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.f4 a:hover{
+    text-decoration: underline white;
+ }
