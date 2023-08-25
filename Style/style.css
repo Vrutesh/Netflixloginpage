@@ -14,7 +14,7 @@ body{
 }
 
 .main{
-    background-image: url(netflixbg.png);
+    background-image: url(/Image/netflixbg.png);
     background-size: cover;
     overflow: hidden;
     height: 1285px;
